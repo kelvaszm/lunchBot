@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/searchbar"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/distance"
+        android:title="distance" />
+    <item android:id="@+id/rating"
+        android:title="rating" >
+
+        <menu>
+            <item android:id="@+id/FourStars"
+                android:title="****"/>
+            <item android:id="@+id/ThreeStars"
+                android:title="***"/>
+            <item android:id="@+id/TwoStars"
+                android:title="**"/>
+            <item android:id="@+id/OneStars"
+                android:title="*"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/type"
+        android:title="type">
+        <menu>
+            <item android:id="@+id/fastfood"
+                android:title="Fast Food"/>
+            <item android:id="@+id/Steak"
+                android:title="Steak"/>
+            <item android:id="@+id/Chinese"
+                android:title="Chinese"/>
+            <item android:id="@+id/Burgers"
+                android:title="Burgers"/>
+        </menu>
+
+    </item>
+
+
+
+
+</menu>
